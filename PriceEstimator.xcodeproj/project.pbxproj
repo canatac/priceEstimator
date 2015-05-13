@@ -15,6 +15,7 @@
 		877DE3BB1B0366810048A014 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877DE3BA1B0366810048A014 /* Images.xcassets */; };
 		877DE3BE1B0366810048A014 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 877DE3BC1B0366810048A014 /* LaunchScreen.xib */; };
 		877DE3CA1B0366810048A014 /* PriceEstimatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877DE3C91B0366810048A014 /* PriceEstimatorTests.swift */; };
+		878A7E9D1B036A040030A26B /* PriceEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A7E9C1B036A040030A26B /* PriceEstimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		877DE3C31B0366810048A014 /* PriceEstimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceEstimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		877DE3C81B0366810048A014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		877DE3C91B0366810048A014 /* PriceEstimatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceEstimatorTests.swift; sourceTree = "<group>"; };
+		878A7E9C1B036A040030A26B /* PriceEstimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceEstimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		877DE3AB1B0366810048A014 /* PriceEstimator */ = {
 			isa = PBXGroup;
 			children = (
+				878A7E9B1B0369C90030A26B /* API */,
 				877DE3AE1B0366810048A014 /* AppDelegate.swift */,
 				877DE3B31B0366810048A014 /* MasterViewController.swift */,
 				877DE3B51B0366810048A014 /* DetailViewController.swift */,
@@ -116,6 +119,14 @@
 				877DE3C81B0366810048A014 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		878A7E9B1B0369C90030A26B /* API */ = {
+			isa = PBXGroup;
+			children = (
+				878A7E9C1B036A040030A26B /* PriceEstimator.swift */,
+			);
+			name = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +178,7 @@
 				TargetAttributes = {
 					877DE3A81B0366810048A014 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = E449Q2SF5F;
 					};
 					877DE3C21B0366810048A014 = {
 						CreatedOnToolsVersion = 6.3.1;
@@ -220,6 +232,7 @@
 			files = (
 				877DE3B21B0366810048A014 /* PriceEstimator.xcdatamodeld in Sources */,
 				877DE3AF1B0366810048A014 /* AppDelegate.swift in Sources */,
+				878A7E9D1B036A040030A26B /* PriceEstimator.swift in Sources */,
 				877DE3B41B0366810048A014 /* MasterViewController.swift in Sources */,
 				877DE3B61B0366810048A014 /* DetailViewController.swift in Sources */,
 			);
@@ -350,6 +363,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PriceEstimator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -360,6 +374,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = PriceEstimator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -419,6 +434,7 @@
 				877DE3CF1B0366810048A014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		877DE3D01B0366810048A014 /* Build configuration list for PBXNativeTarget "PriceEstimatorTests" */ = {
 			isa = XCConfigurationList;
@@ -427,6 +443,7 @@
 				877DE3D21B0366810048A014 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
