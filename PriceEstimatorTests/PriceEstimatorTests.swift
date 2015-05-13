@@ -8,6 +8,7 @@
 
 import UIKit
 import XCTest
+import PriceEstimator
 
 class PriceEstimatorTests: XCTestCase {
     
@@ -21,8 +22,13 @@ class PriceEstimatorTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
+    func testGetResults() {
         // This is an example of a functional test case.
+        let priceEstimator = Estimator()
+        var criteria:[String:String]=["productName":"COCO"]
+        let results = priceEstimator.getResults(criteria)
+        println(results)
+        println("Median Price : \(priceEstimator.getMedianPrice())")
         XCTAssert(true, "Pass")
     }
     

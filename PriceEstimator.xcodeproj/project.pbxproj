@@ -15,7 +15,8 @@
 		877DE3BB1B0366810048A014 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 877DE3BA1B0366810048A014 /* Images.xcassets */; };
 		877DE3BE1B0366810048A014 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 877DE3BC1B0366810048A014 /* LaunchScreen.xib */; };
 		877DE3CA1B0366810048A014 /* PriceEstimatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877DE3C91B0366810048A014 /* PriceEstimatorTests.swift */; };
-		878A7E9D1B036A040030A26B /* PriceEstimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A7E9C1B036A040030A26B /* PriceEstimator.swift */; };
+		878A7EA11B0372540030A26B /* Estimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A7EA01B0372540030A26B /* Estimator.swift */; };
+		878A7EA21B03753B0030A26B /* Estimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A7EA01B0372540030A26B /* Estimator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +42,7 @@
 		877DE3C31B0366810048A014 /* PriceEstimatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PriceEstimatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		877DE3C81B0366810048A014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		877DE3C91B0366810048A014 /* PriceEstimatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceEstimatorTests.swift; sourceTree = "<group>"; };
-		878A7E9C1B036A040030A26B /* PriceEstimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PriceEstimator.swift; sourceTree = "<group>"; };
+		878A7EA01B0372540030A26B /* Estimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Estimator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +125,7 @@
 		878A7E9B1B0369C90030A26B /* API */ = {
 			isa = PBXGroup;
 			children = (
-				878A7E9C1B036A040030A26B /* PriceEstimator.swift */,
+				878A7EA01B0372540030A26B /* Estimator.swift */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -230,9 +231,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878A7EA11B0372540030A26B /* Estimator.swift in Sources */,
 				877DE3B21B0366810048A014 /* PriceEstimator.xcdatamodeld in Sources */,
 				877DE3AF1B0366810048A014 /* AppDelegate.swift in Sources */,
-				878A7E9D1B036A040030A26B /* PriceEstimator.swift in Sources */,
 				877DE3B41B0366810048A014 /* MasterViewController.swift in Sources */,
 				877DE3B61B0366810048A014 /* DetailViewController.swift in Sources */,
 			);
@@ -242,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				878A7EA21B03753B0030A26B /* Estimator.swift in Sources */,
 				877DE3CA1B0366810048A014 /* PriceEstimatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
