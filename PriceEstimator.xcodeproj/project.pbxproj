@@ -17,6 +17,7 @@
 		877DE3CA1B0366810048A014 /* PriceEstimatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 877DE3C91B0366810048A014 /* PriceEstimatorTests.swift */; };
 		878A7EA11B0372540030A26B /* Estimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A7EA01B0372540030A26B /* Estimator.swift */; };
 		878A7EA21B03753B0030A26B /* Estimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A7EA01B0372540030A26B /* Estimator.swift */; };
+		878A7EA41B04D0340030A26B /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 878A7EA31B04D0340030A26B /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		877DE3C81B0366810048A014 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		877DE3C91B0366810048A014 /* PriceEstimatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceEstimatorTests.swift; sourceTree = "<group>"; };
 		878A7EA01B0372540030A26B /* Estimator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Estimator.swift; sourceTree = "<group>"; };
+		878A7EA31B04D0340030A26B /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 			isa = PBXGroup;
 			children = (
 				878A7EA01B0372540030A26B /* Estimator.swift */,
+				878A7EA31B04D0340030A26B /* DataManager.swift */,
 			);
 			name = API;
 			sourceTree = "<group>";
@@ -232,6 +235,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				878A7EA11B0372540030A26B /* Estimator.swift in Sources */,
+				878A7EA41B04D0340030A26B /* DataManager.swift in Sources */,
 				877DE3B21B0366810048A014 /* PriceEstimator.xcdatamodeld in Sources */,
 				877DE3AF1B0366810048A014 /* AppDelegate.swift in Sources */,
 				877DE3B41B0366810048A014 /* MasterViewController.swift in Sources */,
